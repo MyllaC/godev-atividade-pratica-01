@@ -1,8 +1,99 @@
-table {
-  border: 1px solid black;
+/* GERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-th,
-td {
-  border: 1px solid red;
+:root {
+  --azul-marinho: #003366;
+  --azul-celeste: #1398be;
+  --laranja: #de9800;
+  --cinza: #cccccc;
+  --vermelho: #c91b04;
+}
+
+body {
+  font-family: Arial;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+  width: 55vw;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+/* TBODY */
+tbody td {
+  font-size: 14px;
+  color: #666666;
+  font-weight: normal;
+  text-align: center;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody td:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+tbody td.pontos,
+tbody td.qt-pontos {
+  width: 3rem;
+}
+
+tbody td.porcentagem {
+  width: 5rem;
+}
+
+thead {
+  font-size: 13px;
+  color: #999999;
+  font-weight: bold;
+  text-align: center;
+}
+
+tbody td.classification {
+  width: 3rem;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #156478;
+  background-color: white;
+}
+
+tbody td.title {
+  min-width: 50px;
+  max-width: 65px;
+
+  font-size: 14px;
+  font-weight: bold;
+  color: #666666;
+  text-align: left;
+}
+
+tbody td.qt-pontos {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*  FOOT */
+tfoot td {
+  border: none;
+}
+
+.legenda-class {
+  font-size: 10px;
+  color: #8f8f8f;
+  text-align: left;
+}
+
+.legenda-siglas {
+  font-size: 10px;
+  color: #555555;
+  text-align: left;
 }
