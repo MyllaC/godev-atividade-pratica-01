@@ -82,6 +82,27 @@ tbody td.qt-pontos {
 }
 
 /*  FOOT */
+
+tfoot i {
+  padding-right: 0.2rem;
+}
+
+tfoot i.azul-marinho {
+  color: var(--azul-marinho);
+}
+
+tfoot i.azul-celeste {
+  color: var(--azul-celeste);
+}
+
+tfoot i.laranja {
+  color: var(--laranja);
+}
+
+tfoot i.vermelho {
+  color: var(--vermelho);
+}
+
 tfoot td {
   border: none;
 }
