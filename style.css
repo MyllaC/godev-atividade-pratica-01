@@ -22,7 +22,21 @@ table {
   border: 1px solid #dddddd;
   width: 55vw;
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* THEAD */
+thead {
+  font-size: 13px;
+  color: #999999;
+  font-weight: bold;
+  text-align: center;
+}
+
+thead th {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
 }
 
 /* TBODY */
@@ -33,6 +47,13 @@ tbody td {
   text-align: center;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
+
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+tbody .borda-estilizada {
+  border-bottom: 2px solid #cccccc;
 }
 
 tbody td:nth-child(odd) {
@@ -48,19 +69,11 @@ tbody td.porcentagem {
   width: 5rem;
 }
 
-thead {
-  font-size: 13px;
-  color: #999999;
-  font-weight: bold;
-  text-align: center;
-}
-
 tbody td.classification {
-  width: 3rem;
+  width: 2rem;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
-  color: #156478;
   background-color: white;
 }
 
@@ -79,6 +92,41 @@ tbody td.qt-pontos {
   color: black;
   font-weight: bold;
   text-align: center;
+}
+
+#l-1,
+#l-2,
+#l-3 {
+  color: var(--azul-marinho);
+}
+
+#l-4 {
+  color: var(--azul-celeste);
+}
+
+#l-5,
+#l-6,
+#l-7,
+#l-8,
+#l-9,
+#l-10,
+#l-11,
+#l-12 {
+  color: var(--laranja);
+}
+
+#l-13,
+#l-14,
+#l-15,
+#l-16 {
+  color: var(--cinza);
+}
+
+#l-17,
+#l-18,
+#l-19,
+#l-20 {
+  color: var(--vermelho);
 }
 
 /*  FOOT */
@@ -105,6 +153,8 @@ tfoot i.vermelho {
 
 tfoot td {
   border: none;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
 }
 
 .legenda-class {
