@@ -20,7 +20,8 @@ body {
 table {
   border-collapse: collapse;
   border: 1px solid #dddddd;
-  width: 55vw;
+  min-width: 55vw;
+  max-width: 90vw;
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -78,9 +79,6 @@ tbody td.classification {
 }
 
 tbody td.title {
-  min-width: 50px;
-  max-width: 65px;
-
   font-size: 14px;
   font-weight: bold;
   color: #666666;
