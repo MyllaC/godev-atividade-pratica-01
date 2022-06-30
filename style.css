@@ -92,38 +92,23 @@ tbody td.qt-pontos {
   text-align: center;
 }
 
-#l-1,
-#l-2,
-#l-3 {
+.azul-marinho {
   color: var(--azul-marinho);
 }
 
-#l-4 {
+.azul-celeste {
   color: var(--azul-celeste);
 }
 
-#l-5,
-#l-6,
-#l-7,
-#l-8,
-#l-9,
-#l-10,
-#l-11,
-#l-12 {
+.laranja {
   color: var(--laranja);
 }
 
-#l-13,
-#l-14,
-#l-15,
-#l-16 {
+.cinza {
   color: var(--cinza);
 }
 
-#l-17,
-#l-18,
-#l-19,
-#l-20 {
+.vermelho {
   color: var(--vermelho);
 }
 
